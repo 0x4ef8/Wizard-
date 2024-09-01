@@ -226,7 +226,7 @@ def greet_user():
 # ────────────────[IP]─────────────────
 
 def ip():
-    statee = unknown
+    statee = "unknown"
     ip_response = requests.get(
         "http://ip-api.com/json/",
         headers={
@@ -240,7 +240,7 @@ def ip():
         }
     ).json()
 
-    print(f" {c}  「{w}State{c}」{w}:{c}{statee}")
+    print(f" {c}  「{w}State{c}」{w}:{c}Freeee")
     print(f" {c}  「{w}IP{c}」{w}:{c}{ip_response.get('query', ' ')}")
     print(f"{c}   「{w}country{c}」{w}:{c}{ip_response.get('country', ' ')}")
     print(f"{c}   「{w}ISP{c}」{w}:{c}{ip_response.get('isp', ' ')}")
