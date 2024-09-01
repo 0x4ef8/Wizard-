@@ -224,8 +224,8 @@ def greet_user():
         print(f"    Good evening, {c}{user_name}!{w}")
 
 # ────────────────[IP]─────────────────
-key = holysht
-def ip(key):
+
+def ip():
     statee = unknown
     ip_response = requests.get(
         "http://ip-api.com/json/",
@@ -244,7 +244,7 @@ def ip(key):
     print(f" {c}  「{w}IP{c}」{w}:{c}{ip_response.get('query', ' ')}")
     print(f"{c}   「{w}country{c}」{w}:{c}{ip_response.get('country', ' ')}")
     print(f"{c}   「{w}ISP{c}」{w}:{c}{ip_response.get('isp', ' ')}")
-    print(f"{c}   「{w}s-key{c}」{w}:{c}{key}")
+    print(f"{c}   「{w}s-key{c}」{w}:{c}SUCK MY COCK {r}")
     linex()
     
 
