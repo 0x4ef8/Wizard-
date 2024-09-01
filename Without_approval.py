@@ -259,7 +259,7 @@ def clr():
 
 # ────────────────[Menu]─────────────────
 def menu():
-    approval()
+    #approval()
     clr()
     left_options = [
         ("1", f"{c}START{r}         "), 
