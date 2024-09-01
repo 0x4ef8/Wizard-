@@ -255,7 +255,7 @@ def clr():
     print(logo)  
     overview()
     greet_user()
-    ip(key)
+    ip()
 
 # ────────────────[Menu]─────────────────
 def menu():
