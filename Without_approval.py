@@ -224,7 +224,7 @@ def greet_user():
         print(f"    Good evening, {c}{user_name}!{w}")
 
 # ────────────────[IP]─────────────────
-
+key = holysht
 def ip(key):
     statee = unknown
     ip_response = requests.get(
